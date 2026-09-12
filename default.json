@@ -46,6 +46,18 @@
       "matchUpdateTypes": ["minor", "patch"]
     },
     {
+      "matchManagers": ["bundler"],
+      "commitMessagePrefix": "fix: 💎"
+    },
+    {
+      "groupName": "Ruby gems",
+      "group": {
+        "commitMessageTopic": "{{{groupName}}} ({{#each upgrades}}{{{depName}}}{{#unless @last}}, {{/unless}}{{/each}})"
+      },
+      "matchManagers": ["bundler"],
+      "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
       "matchCurrentVersion": "<1.0.0",
       "matchUpdateTypes": ["minor"],
       "groupName": null
