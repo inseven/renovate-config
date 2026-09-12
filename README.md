@@ -27,7 +27,7 @@ Create `renovate.json` in the root of your project:
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>jbmorley/renovate-config"
+    "local>inseven/renovate-config"
   ]
 }
 ```
