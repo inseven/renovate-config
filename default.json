@@ -35,7 +35,7 @@
     },
     {
       "matchManagers": ["mise"],
-      "commitMessagePrefix": "build: 🧰"
+      "commitMessagePrefix": "build: 🔨"
     },
     {
       "groupName": "build tools",
