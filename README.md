@@ -32,3 +32,6 @@ Create `renovate.json` in the root of your project:
 }
 ```
 
+## License
+
+Licensed under the MIT License (see [LICENSE](LICENSE)). 
