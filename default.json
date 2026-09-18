@@ -61,6 +61,14 @@
       "matchCurrentVersion": "<1.0.0",
       "matchUpdateTypes": ["minor"],
       "groupName": null
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchDepTypes": ["uses-with"],
+      "matchDepNames": ["jdx/mise"],
+      "groupName": null,
+      "automerge": true,
+      "automergeType": "branch"
     }
   ]
 }
