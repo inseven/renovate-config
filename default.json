@@ -8,6 +8,9 @@
   ],
   "semanticCommits": "enabled",
   "commitMessageLowerCase": "never",
+  "git-submodules": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchManagers": ["cargo"],
@@ -56,6 +59,18 @@
       },
       "matchManagers": ["bundler"],
       "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
+      "matchManagers": ["git-submodules"],
+      "commitMessagePrefix": "fix: 🔗"
+    },
+    {
+      "groupName": "submodules",
+      "group": {
+        "commitMessageTopic": "{{{groupName}}} ({{#each upgrades}}{{{depName}}}{{#unless @last}}, {{/unless}}{{/each}})"
+      },
+      "matchManagers": ["git-submodules"],
+      "matchUpdateTypes": ["digest"]
     },
     {
       "matchCurrentVersion": "<1.0.0",
