@@ -32,6 +32,21 @@ Create `renovate.json` in the root of your project:
 }
 ```
 
+## Development
+
+Install dependencies:
+
+```sh
+mise trust
+mise install
+```
+
+Validate the configuration:
+
+```sh
+renovate-config-validator default.json
+```
+
 ## License
 
 Licensed under the MIT License (see [LICENSE](LICENSE)). 

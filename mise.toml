@@ -1,0 +1,4 @@
+[tools]
+
+node = "24.21.0"
+"npm:renovate" = { version = "latest", trust_policy_excludes = ["@yarnpkg/libzip@3.2.2"], allow_builds = ["re2"] }
