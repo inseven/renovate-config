@@ -61,6 +61,10 @@
       "matchUpdateTypes": ["minor", "patch"]
     },
     {
+      "matchManagers": ["swift"],
+      "commitMessagePrefix": "fix: 🪽"
+    },
+    {
       "matchManagers": ["git-submodules"],
       "commitMessagePrefix": "fix: 📦"
     },
