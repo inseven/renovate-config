@@ -62,15 +62,7 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "commitMessagePrefix": "fix: 🔗"
-    },
-    {
-      "groupName": "submodules",
-      "group": {
-        "commitMessageTopic": "{{{groupName}}} ({{#each upgrades}}{{{depName}}}{{#unless @last}}, {{/unless}}{{/each}})"
-      },
-      "matchManagers": ["git-submodules"],
-      "matchUpdateTypes": ["digest"]
+      "commitMessagePrefix": "fix: 📦"
     },
     {
       "matchCurrentVersion": "<1.0.0",
