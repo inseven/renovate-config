@@ -34,7 +34,9 @@
         "commitMessageTopic": "{{{groupName}}} ({{#each upgrades}}{{{depName}}}{{#unless @last}}, {{/unless}}{{/each}})"
       },
       "matchManagers": ["github-actions"],
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeType": "branch"
     },
     {
       "matchManagers": ["mise"],
