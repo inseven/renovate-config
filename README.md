@@ -32,6 +32,21 @@ Create `renovate.json` in the root of your project:
 }
 ```
 
+If package management depends on local submodules, it may be necessary to instruct Renovate to check these out to ensure lock files can be updated. For example,
+
+```yaml
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>inseven/renovate-config"
+  ],
+  "cloneSubmodules": true,
+  "cloneSubmodulesFilter": ["docs/_theme"]
+}
+```
+
+This ensures the Jekyll theme used by [Thoughts](https://github.com/inseven/thoughts) and other projects is cloned before attempting to update lock files.
+
 ## Development
 
 Install dependencies:
