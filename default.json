@@ -11,6 +11,9 @@
   "git-submodules": {
     "enabled": true
   },
+  "swift": {
+    "managerFilePatterns": ["/(^|/)Package(_[A-Za-z]+)*\\.swift$/"]
+  },
   "packageRules": [
     {
       "matchManagers": ["cargo"],
