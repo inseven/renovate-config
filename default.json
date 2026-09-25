@@ -90,7 +90,7 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "commitMessagePrefix": "fix: 📦"
+      "commitMessagePrefix": "fix: 🧩"
     },
     {
       "matchCurrentVersion": "<1.0.0",
