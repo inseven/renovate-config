@@ -71,6 +71,17 @@
       "matchUpdateTypes": ["minor", "patch"]
     },
     {
+      "matchManagers": ["bundler"],
+      "matchFileNames": ["docs/Gemfile"],
+      "commitMessagePrefix": "build(website): 💎"
+    },
+    {
+      "groupName": "website gems",
+      "matchManagers": ["bundler"],
+      "matchFileNames": ["docs/Gemfile"],
+      "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
       "matchManagers": ["swift"],
       "commitMessagePrefix": "fix: 🪽"
     },
