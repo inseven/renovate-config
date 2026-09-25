@@ -87,6 +87,7 @@
     {
       "matchManagers": ["swift"],
       "commitMessagePrefix": "fix: 🪽"
+      "commitMessageTopic": "{{{depName}}}"
     },
     {
       "matchManagers": ["git-submodules"],
