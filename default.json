@@ -86,7 +86,7 @@
     },
     {
       "matchManagers": ["swift"],
-      "commitMessagePrefix": "fix: 🪽"
+      "commitMessagePrefix": "fix: 🪽",
       "commitMessageTopic": "{{{depName}}}"
     },
     {
