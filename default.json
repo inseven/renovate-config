@@ -62,6 +62,13 @@
       "automergeType": "branch"
     },
     {
+      "matchManagers": ["mise"],
+      "matchDepNames": ["python"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": null,
+      "automerge": false
+    },
+    {
       "matchManagers": ["bundler"],
       "commitMessagePrefix": "fix: 💎"
     },
