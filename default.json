@@ -29,7 +29,9 @@
     },
     {
       "matchManagers": ["github-actions"],
-      "commitMessagePrefix": "ci: ⚙️"
+      "commitMessagePrefix": "ci: ⚙️",
+      "automerge": true,
+      "automergeType": "branch"
     },
     {
       "matchManagers": ["github-actions"],
@@ -42,9 +44,7 @@
         "commitMessageTopic": "{{{groupName}}} ({{#each upgrades}}{{{depName}}}{{#unless @last}}, {{/unless}}{{/each}})"
       },
       "matchManagers": ["github-actions"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "branch"
+      "matchUpdateTypes": ["minor", "patch"]
     },
     {
       "matchManagers": ["mise"],
