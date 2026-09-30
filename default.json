@@ -97,6 +97,12 @@
       "commitMessageTopic": "{{{depName}}}"
     },
     {
+      "matchManagers": ["swift"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
       "matchManagers": ["git-submodules"],
       "commitMessagePrefix": "fix: 🧩"
     },
