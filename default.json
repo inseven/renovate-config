@@ -26,14 +26,12 @@
       },
       "matchManagers": ["cargo"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     },
     {
       "matchManagers": ["github-actions"],
       "commitMessagePrefix": "ci: ⚙️",
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     },
     {
       "matchManagers": ["github-actions"],
@@ -60,8 +58,7 @@
       },
       "matchManagers": ["mise"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     },
     {
       "matchManagers": ["mise"],
@@ -101,8 +98,7 @@
     {
       "matchManagers": ["swift"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     },
     {
       "matchManagers": ["git-submodules"],
@@ -118,8 +114,7 @@
       "matchDepTypes": ["uses-with"],
       "matchDepNames": ["jdx/mise"],
       "groupName": null,
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     }
   ]
 }
