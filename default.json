@@ -77,7 +77,8 @@
         "commitMessageTopic": "{{{groupName}}} ({{#each upgrades}}{{{depName}}}{{#unless @last}}, {{/unless}}{{/each}})"
       },
       "matchManagers": ["bundler"],
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
     },
     {
       "matchManagers": ["bundler"],
