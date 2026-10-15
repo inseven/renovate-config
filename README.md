@@ -47,6 +47,14 @@ If package management depends on local submodules, it may be necessary to instru
 
 This ensures the Jekyll theme used by [Thoughts](https://github.com/inseven/thoughts) and other projects is cloned before attempting to update lock files.
 
+### Swift Ranges
+
+Renovate doesn't currently seem to handle exclusive ranges correctly, so inclusive ranges should be used:
+
+```swift
+.package(url: "https://github.com/apple/swift-crypto.git", "1.0.0" ... "5.0.1"),
+```
+
 ## Development
 
 Install dependencies:
@@ -64,4 +72,4 @@ renovate-config-validator default.json
 
 ## License
 
-Licensed under the MIT License (see [LICENSE](LICENSE)). 
+Licensed under the MIT License (see [LICENSE](LICENSE)).

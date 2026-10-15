@@ -105,6 +105,11 @@
       "automerge": true
     },
     {
+      "matchManagers": ["swift"],
+      "matchCurrentValue": "/\\.\\.[.<]/",
+      "rangeStrategy": "widen"
+    },
+    {
       "matchManagers": ["git-submodules"],
       "commitMessagePrefix": "fix: 🧩"
     },
