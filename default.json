@@ -8,6 +8,9 @@
   ],
   "semanticCommits": "enabled",
   "commitMessageLowerCase": "never",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "git-submodules": {
     "enabled": true
   },
@@ -115,6 +118,11 @@
       "matchDepTypes": ["uses-with"],
       "matchDepNames": ["jdx/mise"],
       "groupName": null,
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "commitMessagePrefix": "fix: 🔒",
       "automerge": true
     }
   ]
