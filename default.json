@@ -8,7 +8,8 @@
   "semanticCommits": "enabled",
   "commitMessageLowerCase": "never",
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "commitMessageAction": "Update dependencies"
   },
   "git-submodules": {
     "enabled": true
